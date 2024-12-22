@@ -25,7 +25,7 @@ const RecentPost = () => {
   return (
     <>
       <div className="px-8 md:px-16 lg:px-24 py-12">
-        <h2 className="text-3xl font-bold mb-8">Featured Posts</h2>
+        <h2 className="text-3xl font-bold mb-8">Recent Posts</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {posts.map((post, index) => (
             <div
