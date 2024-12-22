@@ -1,5 +1,7 @@
 import Image from "next/image";
 import VisiMisi from "./visiMisi";
+import FeaturedPost from "../Blog/FeaturedPost";
+import RecentPost from "../Blog/RecentPost";
 
 const Home = () => {
   return (
@@ -28,6 +30,8 @@ const Home = () => {
         </div>
       </div>
       <VisiMisi />
+      <FeaturedPost />
+      <RecentPost />
     </>
   );
 };
