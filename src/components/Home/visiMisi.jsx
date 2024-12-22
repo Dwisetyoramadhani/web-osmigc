@@ -1,7 +1,7 @@
 const visiMisi = () => {
   return (
     <>
-      <div className="flex flex-col justify-center items-center px-6 lg:px-40 py-14">
+      <div className="flex flex-col justify-center items-center px-6 lg:px-40 py-28">
         <h1 className="text-3xl font-bold text-center">VISI & MISI</h1>
         <div className="flex flex-col lg:flex-row py-9 justify-around gap-8 lg:gap-16 w-full">
           <div className="p-8 rounded-lg shadow-xl flex-1 max-w-lg mx-auto lg:mx-0">
